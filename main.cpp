@@ -3,8 +3,8 @@ using namespace std;
 //declaring float value for Circumference
 float locateCircum(float);
 
-int main()
-{
+int main() {
+    //declaring radius as a float
     float radius;
     //output to ask for the radius
     cout << "Enter the Radius of Circle: ";
