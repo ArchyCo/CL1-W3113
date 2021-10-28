@@ -1,0 +1,18 @@
+#include <iostream>
+using namspace std;
+
+
+#define PI 3.141
+
+int main() {
+
+  float radius, area;
+  cout << "enter radius of circle\n";
+  cin >> radius;
+  // Area of circle = PI x Radius X Radius
+  area = PI*radius*radius;
+  cout << "Area of circle: " << area;
+
+  return 0;
+  
+}
